@@ -4,7 +4,7 @@ This repo contains **10 different CSS techniques** to center a `<div>` using Fle
 
 ---
 
-## ✅ Methods Covered:
+## Methods Covered:
 
 1. **Flexbox** – `justify-content` + `align-items`
 2. **Flexbox** – `align-self` on child
@@ -19,7 +19,7 @@ This repo contains **10 different CSS techniques** to center a `<div>` using Fle
 
 ---
 
-## 💡 Ideal For:
+## Ideal For:
 
 - Beginners learning layout
 - Practicing Flexbox, Grid, and Position properties
