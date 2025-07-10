@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.parent{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    background-color: lightcoral;
+}
+
+.child{
+    height: 200px;
+    width: 200px;
+    border: 0.5px solid black;
+    background: lightseagreen;
+}
+
+
+    /* 1ST WAY = Display Flex */
+  .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+
+
+
+    /* 2ND WAY = Display Flex */
+     /* .parent {
+        display: flex;
+        justify-content: center;
+
+        .child {
+        align-self: center;
+        }
+
+    } */
+
+
+
+
+    /* note When the parent has display: flex or grid, and the child has margin: auto, then: margin: auto works in all directions — not just left and right. */
+
+    /* 3RD WAY = Flex and Margin */
+    /* .parent {
+        display: flex;
+
+        .child{
+            margin: auto;
+        }
+    } */
+
+
+
+
+
+    /* 4TH WAY = GRID */
+    /* (pura grid center me aa gaya ) */
+
+        /* .parent {
+            display: grid;
+                justify-content: center;
+                align-content: center;  
+                [or]
+            place-content: center; 
+    } */
+
+
+
+
+    /* 5TH WAY = GRID */
+    /* (sare item apne cell ke andar center me aa gaye) */
+
+        /* .parent {
+            display: grid;
+            
+            justify-items: center;
+            align-items: center; 
+            [or] 
+            place-items: center;               
+    } */
+    
+    
+
+
+    /* 6Th WAY = GRID */
+    /* (item or grid center me aa gaye ) */
+
+        /* .parent {
+            display: grid;
+              justify-content: center;
+               align-items: center;    
+    } */
+
+
+
+
+
+    /* 7TH WAY = GRID */
+    /* ( by placing an item in center of its cell ) */
+
+        /* .parent {
+            display: grid;
+
+            .child {
+                place-self: center;
+            }
+    } */
+
+
+
+
+
+    /* 8th Way = grid and margin  */
+
+        /* .parent {
+            display: grid;
+
+        .child{
+            margin: auto;
+        }
+    } */
+
+
+
+
+
+    /* 9TH WAY = Positions */
+    /* (top: 50% left: 50% Child ka top-left corner parent ke center par le aao.) */
+        /*  transform: translate(-50%,-50%) shifts the element left by 50% of its own width and up by 50% of its own height to center it perfectly. */
+
+        /* .parent {
+            position: relative;
+
+        .child{
+            position: absolute;
+            top: 50%;   
+            left: 50%;
+        
+            transform: translate(-50%,-50%);
+        }
+    } */
+
+
+
+
+    /* !0TH WAY = positions and margin */
+    /* top: 0...right:0 */
+    /* This stretches the child in all four directions, filling the parent if there’s no size set. */
+    /* mean => Puts the child in all 4 corners of the parent. */
+    /*  margin: auto; evenly distributes the extra space on all four sides, perfectly centering it. */
+
+        /* .parent {
+            position: relative;
+
+        .child{
+            position: absolute;
+        
+             top: 0;
+             left: 0;
+             bottom: 0;
+             right: 0;
+        
+             margin: auto;
+        }
+    }
+     */
+
+
+    
