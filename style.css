@@ -24,7 +24,7 @@ html, body{
 }
 
 
-    /* 1ST WAY = Display Flex */
+    /*[ 1ST WAY = Display Flex] */
     /* Centers the child horizontally and vertically using Flexbox on the parent */
   .parent {
     display: flex;
@@ -36,7 +36,7 @@ html, body{
 
 
 
-    /* 2ND WAY = Display Flex */
+    /* [2ND WAY = Display Flex] */
     /* Uses Flexbox to center the child vertically with align-self and horizontally with justify-content */
 
      /* .parent {
@@ -53,7 +53,7 @@ html, body{
 
     /* note When the parent has display: flex or grid, and the child has margin: auto, then: margin: auto works in all directions — not just left and right. */
 
-    /* 3RD WAY = Flex and Margin */
+    /* [3RD WAY = Flex and Margin ]*/
     /* .parent {
         display: flex;
 
@@ -66,7 +66,7 @@ html, body{
 
 
 
-    /* 4TH WAY = GRID */
+    /* [4TH WAY = GRID] */
     /* Centers the entire grid content both horizontally and vertically using Grid layout */
 
         /* .parent {
@@ -80,7 +80,7 @@ html, body{
 
 
 
-    /* 5TH WAY = GRID */
+    /* [5TH WAY = GRID] */
     /* Centers each grid item inside its cell both horizontally and vertically using Grid */
 
         /* .parent {
@@ -95,7 +95,7 @@ html, body{
     
 
 
-    /* 6Th WAY = GRID */
+    /* [6Th WAY = GRID] */
     /* Centers the grid itself horizontally and its items vertically within their cells */
 
         /* .parent {
@@ -108,7 +108,7 @@ html, body{
 
 
 
-    /* 7TH WAY = GRID */
+    /* [7TH WAY = GRID] */
     /* Centers the child element inside its grid cell both horizontally and vertically using place-self */
 
         /* .parent {
@@ -123,7 +123,7 @@ html, body{
 
 
 
-    /* 8th Way = grid and margin  */
+    /* [8th Way = grid and margin]  */
     /* Uses Grid and margin: auto to center the child element in both directions */
 
         /* .parent {
@@ -138,7 +138,7 @@ html, body{
 
 
 
-    /* 9TH WAY = Positions */
+    /* [9TH WAY = Positions] */
     /* (top: 50% left: 50% Child ka top-left corner parent ke center par le aao.) */
         /*  transform: translate(-50%,-50%) shifts the element left by 50% of its own width and up by 50% of its own height to center it perfectly. */
 
@@ -157,7 +157,7 @@ html, body{
 
 
 
-    /* !0TH WAY = positions and margin */
+    /* [!0TH WAY = positions and margin] */
     /* top: 0...right:0 */
     /* This stretches the child in all four directions, filling the parent if there’s no size set. */
     /* mean => Puts the child in all 4 corners of the parent. */
